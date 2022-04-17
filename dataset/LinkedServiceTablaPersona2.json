@@ -1,0 +1,12 @@
+{
+	"name": "LinkedServiceTablaPersona2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LinkSQL2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlMITable",
+		"schema": []
+	}
+}
