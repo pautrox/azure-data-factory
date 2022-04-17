@@ -1,0 +1,9 @@
+{
+	"name": "adftestfactoring2",
+	"location": "brazilsouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ce4f6f9b-454f-4d30-84cd-6842299731d7",
+		"tenantId": "50e5a815-5d7a-4cfc-af9a-d6ab3d6641de"
+	}
+}
