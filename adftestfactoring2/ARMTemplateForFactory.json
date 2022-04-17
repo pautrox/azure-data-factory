@@ -524,10 +524,11 @@
 				"type": "ScheduleTrigger",
 				"typeProperties": {
 					"recurrence": {
-						"frequency": "Minute",
+						"frequency": "Day",
 						"interval": 1,
 						"startTime": "2022-04-17T19:53:00Z",
-						"timeZone": "UTC"
+						"timeZone": "UTC",
+						"schedule": {}
 					}
 				}
 			},
