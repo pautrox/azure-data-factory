@@ -23,7 +23,10 @@
 						"type": "SqlMISink",
 						"writeBehavior": "upsert",
 						"upsertSettings": {
-							"useTempDB": true
+							"useTempDB": true,
+							"keys": [
+								"PersonID"
+							]
 						},
 						"sqlWriterUseTableLock": false
 					},
