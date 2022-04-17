@@ -116,7 +116,7 @@
 				]
 			},
 			{
-				"name": "Company to Company",
+				"name": "Copy Data From Company to Company",
 				"type": "Copy",
 				"dependsOn": [
 					{
@@ -224,11 +224,11 @@
 				]
 			},
 			{
-				"name": "Copy data1",
+				"name": "Copy Data From Copy data1",
 				"type": "Copy",
 				"dependsOn": [
 					{
-						"activity": "Company to Company",
+						"activity": "Copy Data From Company to Company",
 						"dependencyConditions": [
 							"Succeeded"
 						]
