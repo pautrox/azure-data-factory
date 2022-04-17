@@ -155,6 +155,11 @@
 						"type": "TabularTranslator",
 						"mappings": [
 							{
+								"source": {
+									"name": "CompanyID",
+									"type": "Int32",
+									"physicalType": "int"
+								},
 								"sink": {
 									"name": "CompanyID",
 									"type": "Int32",
@@ -162,6 +167,11 @@
 								}
 							},
 							{
+								"source": {
+									"name": "Name",
+									"type": "String",
+									"physicalType": "varchar"
+								},
 								"sink": {
 									"name": "Name",
 									"type": "String",
